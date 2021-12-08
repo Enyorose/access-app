@@ -15,5 +15,17 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.2.0",
     "postcss": "^8.3.5"
-  }
+  },
+  "description": "```bash\r # install dependencies\r $ npm install",
+  "main": "nuxt.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Icahpv/access-app.git"
+  },
+  "author": "Evan, Icah, Jessica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Icahpv/access-app/issues"
+  },
+  "homepage": "https://github.com/Icahpv/access-app#readme"
 }
