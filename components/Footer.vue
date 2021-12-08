@@ -1,11 +1,11 @@
 <template>
   <div>
-    <p>&copy; {{ footerInfo.name }} {{ footerInfo.year }} | {{ footerInfo.license }} </p>
+    <p>&copy; VeBuWa Group 2021 | MIT License </p>
   </div>
 </template>
 <!-- JS -->
 <script>
 export default {
-  props: ['footerInfo']
+
 }
 </script>

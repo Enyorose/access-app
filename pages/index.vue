@@ -1,20 +1,30 @@
 <template>
-  <div>
-    <Footer :footerInfo="groupInfo" />
+  <div class="splash">
+  <Header />
+  <Footer />
   </div>
 </template>
 
 <script>
 export default {
-  data () {
-    return {
-      groupInfo: {
-        name: 'VeBuWa Group',
-        year: '2021',
-        license: 'MIT License'
-      }
-    }
-  }
     
 };
 </script>
+
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.splash {
+  height: 100vh;
+  background-image: url(static\assets\images\splash-page2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+</style>

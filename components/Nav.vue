@@ -2,10 +2,10 @@
   <v-container>
     <div>
       <ul class="flex">
-        <li><NuxtLink to="/">Home</NuxtLink></li>
-        <li><NuxtLink to="/">Services</NuxtLink></li>
-        <li><NuxtLink to="/">Contact</NuxtLink></li>
-        <li><NuxtLink to="/">Community</NuxtLink></li>
+        <li><NuxtLink class="gap" to="/">Home</NuxtLink></li>
+        <li><NuxtLink class="gap" to="/services">Services</NuxtLink></li>
+        <li><NuxtLink class="gap" to="/contact">Contact</NuxtLink></li>
+        <li><NuxtLink class="gap" to="/community">Community</NuxtLink></li>
       </ul>
     </div>
   </v-container>
@@ -16,5 +16,9 @@ export default {};
 </script>
 <!-- CSS -->
 <style>
+
+.gap {
+  @apply ml-6 mr-6 text-3xl font-bold
+}
 
 </style>
