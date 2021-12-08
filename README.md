@@ -1,5 +1,8 @@
 # access-app
 
+## Attributions
+- [Outdoor-restaurant.webp](https://pixabay.com/photos/city-street-cafe-gastronomy-4298285/)
+
 ## Build Setup
 
 ```bash
