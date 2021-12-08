@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <div>
-      <ul>
+      <ul class="flex">
         <li><NuxtLink to="/">Home</NuxtLink></li>
         <li><NuxtLink to="/">Services</NuxtLink></li>
         <li><NuxtLink to="/">Contact</NuxtLink></li>
