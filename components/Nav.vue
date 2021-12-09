@@ -15,10 +15,15 @@
 export default {};
 </script>
 <!-- CSS -->
-<style>
+<style lang="scss">
 
 .gap {
   @apply ml-6 mr-6 text-3xl font-bold
+
+}
+ul {
+
+color: red;
 }
 
 </style>

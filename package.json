@@ -15,7 +15,9 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.2.0",
-    "postcss": "^8.3.5"
+    "postcss": "^8.3.5",
+    "sass": "^1.44.0",
+    "sass-loader": "^10.2.0"
   },
   "description": "```bash\r # install dependencies\r $ npm install",
   "main": "nuxt.config.js",
