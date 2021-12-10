@@ -21,4 +21,6 @@ export default {};
   @apply ml-6 mr-6 text-3xl font-bold
 }
 
+
+
 </style>
