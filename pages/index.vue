@@ -11,7 +11,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 
 * {
   margin: 0;
@@ -21,7 +21,7 @@ export default {
 
 .splash {
   height: 100vh;
-  background-image: url(static\assets\images\splash-page2.svg);
+  background-image: url(./static/assets/images/splash-page2.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

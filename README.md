@@ -2,7 +2,7 @@
 
 ## Attributions
 - [Outdoor-restaurant.webp](https://pixabay.com/photos/city-street-cafe-gastronomy-4298285/)
-
+- [Seating.webp](https://pixabay.com/photos/meal-drink-coffee-shop-bar-623651/)
 ## Build Setup
 
 ```bash
