@@ -39,7 +39,7 @@ export default {
               "limit=25",
             {
               headers: {
-                Authorization: process.env.API_KEY,
+                Authorization: process.env.VUE_APP_API_KEY,
               },
             }
           )
