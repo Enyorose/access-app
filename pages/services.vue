@@ -32,7 +32,7 @@ export default {
       if (this.searchText != "") {
         axios
           .get(
-            "https://cores-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=" +
+            "https://api.yelp.com/v3/businesses/search?term=" +
               this.searchText +
               "&latitude=51.049999&longitude=-114.066666&radius=" +
               this.searchRange +
