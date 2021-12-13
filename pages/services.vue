@@ -1,32 +1,7 @@
 <template>
   <div>
-    <div>
-      <form v-on:submit.prevent="getInfo">
-        <label for="input-search">Restaurant Name:</label>
-        <input
-          type="text"
-          id="input-search"
-          v-model="searchText"
-          placeholder="Search Restaurant"
-        />
-        <label for="input-range">Search Range: {{ this.searchRange }}</label>
-        <input
-          type="range"
-          max="400"
-          min="100"
-          step="50"
-          id="input-range"
-          v-model="searchRange"
-          placeholder="Search Range"
-        /><button>Search</button>
-      </form>
-    </div>
-    <div v-for="place in places" :key="place.id">
-      <figure>
-        <img :src="place.image_url" :alt="place.alias" />
-        <p>{{ place.name }}</p>
-      </figure>
-    </div>
+    <Form />
+    <Card v-for="place in places.businesses" :key="place.id" :place="place" />
   </div>
 </template>
 
@@ -40,11 +15,11 @@ export default {
     const places = await axios
       .get(api, {
         headers: {
+          "Access-Control-Allow-Origin": "*",
           Authorization: process.env.VUE_APP_API_KEY,
         },
       })
       .then((response) => {
-        console.log(response.data);
         return response.data;
       });
     return { places };
