@@ -21,6 +21,12 @@
         /><button>Search</button>
       </form>
     </div>
+    <div v-for="place in places" :key="place.id">
+      <figure>
+        <img :src="place.image_url" :alt="place.alias" />
+        <p>{{ place.name }}</p>
+      </figure>
+    </div>
   </div>
 </template>
 
@@ -31,18 +37,17 @@ export default {
   async asyncData() {
     const api =
       "https://api.yelp.com/v3/businesses/search?term=delis&latitude=51.06439127467012&longitude=-114.06230483054544";
-    const place = await axios
+    const places = await axios
       .get(api, {
         headers: {
-          Authorization:
-            "Bearer P7GOjS-bAd3V-QFlcM0z4Vi10A5r5i7z5Zj0j3bTxyRXdSYW6FkLyzIGrj5GIsvC0veYEtJ9EMnQplPUcOuYlH1X_lfIzLxEecGKFsqOQLEpEjC_Njk8rBQGG7GzYXYx",
+          Authorization: process.env.VUE_APP_API_KEY,
         },
       })
       .then((response) => {
         console.log(response.data);
         return response.data;
       });
-    return { place };
+    return { places };
   },
   data() {
     return {
