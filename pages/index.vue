@@ -1,17 +1,26 @@
 <template>
   <div class="splash">
-  <Header />
-  <Footer />
+    <Header />
+    <article>
+      <h1>
+      A Future of Accessibilities...
+      </h1>
+
+    </article>
+    <Footer />
   </div>
 </template>
 
 <script>
-export default {
-    
-};
+export default {};
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+h1{
+  font-size: 5em;
+  font-family: 'Kosugi Maru', sans-serif;
+}
 
 * {
   margin: 0;
@@ -26,5 +35,4 @@ export default {
   background-size: cover;
   background-position: center;
 }
-
 </style>
