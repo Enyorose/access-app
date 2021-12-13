@@ -1,6 +1,12 @@
 <template>
   <div class="splash">
     <Header />
+    <article>
+      <h1>
+      A Future of Accessibilities...
+      </h1>
+
+    </article>
     <Footer />
   </div>
 </template>
@@ -10,6 +16,10 @@ export default {};
 </script>
 
 <style lang="scss">
+h1{
+  font-size: 5em;
+}
+
 * {
   margin: 0;
   padding: 0;
