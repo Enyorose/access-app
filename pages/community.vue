@@ -4,7 +4,7 @@
     <Header />
   </div>
   <Community />
-
+  <BlogTweet />
 </main>
 </template>
 
