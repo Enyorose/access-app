@@ -16,8 +16,10 @@ export default {};
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
 h1{
   font-size: 5em;
+  font-family: 'Kosugi Maru', sans-serif;
 }
 
 * {
