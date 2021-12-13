@@ -16,13 +16,13 @@ export default {};
 </script>
 <!-- CSS -->
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Inter:wght@100&display=swap'); // Cabin & Inter
 .gap {
   @apply ml-6 mr-6 text-3xl font-bold
 
 }
 ul {
-font-family: 'Inter', sans-serif;
+font-family: 'Cabin', sans-serif;
 color: red;
 }
 
