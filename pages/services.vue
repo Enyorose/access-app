@@ -26,43 +26,29 @@
 
 <script>
 import axios from "axios";
+
 export default {
-  methods: {
-    getInfo: function () {
-      if (this.searchText != "") {
-        axios
-          .get(
-            "https://api.yelp.com/v3/businesses/search?term=" +
-              this.searchText +
-              "&latitude=51.049999&longitude=-114.066666&radius=" +
-              this.searchRange +
-              "limit=25",
-            {
-              headers: {
-                Authorization: process.env.VUE_APP_API_KEY,
-              },
-            }
-          )
-          .then((res) => {
-            if (res) {
-              (this.restaurantList = res.data.business),
-                (this.searchText = ""),
-                console.log(res);
-            }
-          })
-          .catch((err) => {
-            console.log(err);
-          });
-      } else {
-        alert("Search Bar is Empty");
-      }
-    },
+  async asyncData() {
+    const api =
+      "https://api.yelp.com/v3/businesses/search?term=delis&latitude=51.06439127467012&longitude=-114.06230483054544";
+    const place = await axios
+      .get(api, {
+        headers: {
+          Authorization:
+            "Bearer P7GOjS-bAd3V-QFlcM0z4Vi10A5r5i7z5Zj0j3bTxyRXdSYW6FkLyzIGrj5GIsvC0veYEtJ9EMnQplPUcOuYlH1X_lfIzLxEecGKFsqOQLEpEjC_Njk8rBQGG7GzYXYx",
+        },
+      })
+      .then((response) => {
+        console.log(response.data);
+        return response.data;
+      });
+    return { place };
   },
   data() {
     return {
+      error: "",
       searchText: "",
       searchRange: 100,
-      restaurantList: [],
     };
   },
 };
