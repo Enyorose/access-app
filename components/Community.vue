@@ -80,7 +80,7 @@ section {
 }
 .comm-text{
     border: solid;
-    border-color:#0bffb1;
+    border-color: indigo;
     padding: 2em;
     max-width: 90ch;
 }
