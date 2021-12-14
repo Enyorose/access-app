@@ -7,13 +7,11 @@
 
     <article>
       <h1>A Future of Accessibilities...</h1>
-    </article>
-    <article>
-      <h2>
+      <p>
         Our goal is to make your next favorite spot easy to find and suit your
         needs.
-      </h2>
-    </article>
+      </p>
+    </article>   
     <Footer />
   </div>
 </template>
@@ -33,10 +31,6 @@ export default {
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
-h1 {
-  font-size: 5em;
-  font-family: "Kosugi Maru", sans-serif;
-}
 
 * {
   margin: 0;
@@ -50,5 +44,28 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow-y: hidden ;
 }
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 85vh;
+  padding: 2rem;
+
+  h1 {
+  font-size: 5em;
+  font-family: "Kosugi Maru", sans-serif;
+  animation: bounce;
+
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
+
 </style>

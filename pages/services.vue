@@ -7,6 +7,7 @@
     <div class="wrapper">
       <Card v-for="place in places.businesses" :key="place.id" :place="place" />
     </div>
+    <Footer />
   </div>
 </template>
 
