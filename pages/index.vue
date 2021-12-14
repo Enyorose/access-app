@@ -1,12 +1,18 @@
 <template>
-<div class="splash">
-<div class="flex justify-between align-center p-5">
-<Header />
-    <Nav :pageInfo="pageInfo" />
+  <div class="splash">
+    <div class="flex justify-between align-center p-5">
+      <Header />
+      <Nav :pageInfo="pageInfo" />
     </div>
-  
+
     <article>
       <h1>A Future of Accessibilities...</h1>
+    </article>
+    <article>
+      <h2>
+        Our goal is to make your next favorite spot easy to find and suit your
+        needs.
+      </h2>
     </article>
     <Footer />
   </div>
