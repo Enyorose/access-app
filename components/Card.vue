@@ -25,7 +25,7 @@ figure {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 1.5rem;
+  margin: 2rem;
   box-shadow: 0px 0px 6px rgb(104, 104, 104);
   border-radius: 10px;
 
