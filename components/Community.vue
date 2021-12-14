@@ -18,6 +18,10 @@
         <img class="charities" :src="require('/static/assets/logos/obesity-center.png')"/>
     </div>
  <!--Twitter API-->
+
+ <span>
+   <a class="twitter-timeline" data-width="500" data-height="600" href="https://twitter.com/Vebuwa_Group?ref_src=twsrc%5Etfw">Tweets by Vebuwa_Group</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+ </span>
     
 </section>    
     

@@ -3,7 +3,7 @@
     <label for="input-search">Restaurant Name:</label>
     <input type="text" id="input-search" placeholder="Search Restaurant" />
     <div v-if="pageInfo.menuName !== 'services'" class="hidden"></div>
-    <div v-else>
+    <div v-else class="range">
       <label for="input-range">Search Range:</label>
       <input
         type="range"
@@ -50,10 +50,15 @@ form {
     border-radius: 15px;
   }
 
-  input {
+  .range {
+    display: flex;
+    align-items: center;
     margin: 1rem;
-    padding: 1rem;
-    width: 200px;
+
+    input {
+      margin: 1rem;
+    }
   }
+
 }
 </style>
