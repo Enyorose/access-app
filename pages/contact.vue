@@ -1,7 +1,8 @@
 <template>
   <main>
     <div>
-      <Header :pageInfo="pageInfo" />
+      <Header />
+      <Nav :pageInfo="pageInfo" />
     </div>
     <!--map-->
     <section>

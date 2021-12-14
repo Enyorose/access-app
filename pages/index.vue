@@ -1,6 +1,7 @@
 <template>
   <div class="splash">
-    <Header :pageInfo="pageInfo" />
+    <Header />
+    <Nav :pageInfo="pageInfo" />
     <article>
       <h1>A Future of Accessibilities...</h1>
     </article>
