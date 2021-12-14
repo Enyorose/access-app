@@ -2,7 +2,7 @@
   <div>
     <Header />
     <div class="search">
-      <Form />
+      <Form :pageInfo="pageInfo" />
     </div>
     <div class="wrapper">
       <Card v-for="place in places.businesses" :key="place.id" :place="place" />
@@ -34,6 +34,10 @@ export default {
       error: "",
       searchText: "",
       searchRange: 100,
+      pageInfo: {
+        menuName: "services",
+        header: "Services",
+      },
     };
   },
 };
@@ -42,7 +46,6 @@ export default {
 
 
 <style lang="scss">
-
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -56,6 +59,4 @@ export default {
   justify-content: center;
   align-items: center;
 }
-
-
 </style>

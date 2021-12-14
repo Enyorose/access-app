@@ -2,21 +2,28 @@
   <form>
     <label for="input-search">Restaurant Name:</label>
     <input type="text" id="input-search" placeholder="Search Restaurant" />
-    <label for="input-range">Search Range:</label>
-    <input
-      type="range"
-      max="400"
-      min="100"
-      step="50"
-      id="input-range"
-      placeholder="Search Range"
-    /><button class="srch-btn">Search</button>
+    <div v-if="!pageInfo.menuName === 'services'" class="hidden"></div>
+    <div v-else>
+      <label for="input-range">Search Range:</label>
+      <input
+        type="range"
+        max="400"
+        min="100"
+        step="50"
+        id="input-range"
+        placeholder="Search Range"
+      />
+    </div>
+    <button class="srch-btn">Search</button>
   </form>
 </template>
+<script>
+export default {
+  props: ["pageInfo"],
+};
+</script>
 
 <style lang="scss">
-
-
 form {
   display: flex;
   justify-content: center;
@@ -49,6 +56,4 @@ form {
     width: 200px;
   }
 }
-
-
 </style>
