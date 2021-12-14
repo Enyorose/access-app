@@ -1,7 +1,7 @@
 <template>
   <main>
     <div>
-      <Header />
+      <Header :pageInfo="pageInfo" />
     </div>
     <Community />
   </main>

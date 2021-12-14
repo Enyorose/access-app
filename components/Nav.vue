@@ -51,11 +51,17 @@
 <!-- JS -->
 <script>
 export default {
-  navClass: {
-    active:
-      "font-extrabold text-center block border-2 border-gray-300 rounded py-2 px-4 bg-gray-300 text-indigo-600",
-    inactive:
-      "font-semibold text-center block border-2 border-gray-300 rounded py-2 px-4 text-blue-300 hover:bg-yellow-100 hover:text-indigo-600",
+  props: ["pageInfo"],
+  data() {
+    return {
+      // Custom page data comes here.
+      navClass: {
+        active:
+          "font-extrabold text-center block border-2 border-gray-300 rounded py-2 px-4 bg-gray-300 text-indigo-600",
+        inactive:
+          "font-semibold text-center block border-2 border-gray-300 rounded py-2 px-4 text-blue-300 hover:bg-yellow-100 hover:text-indigo-600",
+      },
+    };
   },
 };
 </script>
