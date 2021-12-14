@@ -2,7 +2,7 @@
   <form>
     <label for="input-search">Restaurant Name:</label>
     <input type="text" id="input-search" placeholder="Search Restaurant" />
-    <div v-if="!pageInfo.menuName === 'services'" class="hidden"></div>
+    <div v-if="pageInfo.menuName !== 'services'" class="hidden"></div>
     <div v-else>
       <label for="input-range">Search Range:</label>
       <input

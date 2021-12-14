@@ -12,6 +12,7 @@
       <h2>
         Our goal is to make your next favorite spot easy to find and suit your
         needs.
+        <Form :pageInfo="pageInfo" />
       </h2>
     </article>
     <Footer />
