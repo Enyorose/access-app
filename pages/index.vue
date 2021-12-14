@@ -1,7 +1,10 @@
 <template>
-  <div class="splash">
-    <Header />
+<div class="splash">
+<div class="flex justify-between align-center p-5">
+<Header />
     <Nav :pageInfo="pageInfo" />
+    </div>
+  
     <article>
       <h1>A Future of Accessibilities...</h1>
     </article>
