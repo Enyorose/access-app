@@ -6,6 +6,7 @@
     </div>
     <Community />
   </main>
+
 </template>
 <script>
 export default {

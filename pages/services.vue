@@ -1,7 +1,12 @@
 <template>
   <div>
-    <Form />
-    <Card v-for="place in places.businesses" :key="place.id" :place="place" />
+    <Header />
+    <div class="search">
+      <Form />
+    </div>
+    <div class="wrapper">
+      <Card v-for="place in places.businesses" :key="place.id" :place="place" />
+    </div>
   </div>
 </template>
 
@@ -33,3 +38,24 @@ export default {
   },
 };
 </script>
+
+
+
+<style lang="scss">
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+  margin: auto;
+  width: 70vw;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+</style>

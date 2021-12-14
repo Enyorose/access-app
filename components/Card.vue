@@ -1,19 +1,49 @@
 <template>
-  <div>
     <figure>
-      <h3>{{ place.name }}</h3>
-      <img :src="place.image_url" :alt="place.alias" width="150" height="150" />
+      <img :src="place.image_url" :alt="place.alias" />
       <figcaption></figcaption>
-      <a :href="place.url"><button>More on your new favorite</button></a>
+      <h3>{{ place.name }}</h3>
+      <a :href="place.url"><button class="btn">More on your new favorite</button></a>
     </figure>
-  </div>
 </template>
 
 <script>
 export default {
   props: ["place"],
 };
+
 </script>
 
-<style>
+<style lang="scss">
+
+.btn {
+  @apply bg-red-500 p-2 rounded-lg m-6 hover:bg-red-300;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1.5rem;
+  box-shadow: 0px 0px 6px rgb(104, 104, 104);
+  border-radius: 10px;
+
+    img {
+      height: 30vh;
+      width: 100vw;
+      position: center;
+      object-fit: cover;
+      border-radius: 10px 10px 0px 0px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin: 1rem;
+      text-align: center;
+    }
+}
+
+
+
 </style>
