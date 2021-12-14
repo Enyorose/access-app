@@ -47,6 +47,8 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: auto;
+  margin: auto;
+  width: 70vw;
 }
 
 .search {

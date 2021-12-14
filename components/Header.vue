@@ -18,7 +18,6 @@ export default {
 svg {
   height: 64px;
   width: 64px;
-
 }
 
 </style>

@@ -1,8 +1,8 @@
 <template>
     <figure>
-      <h3>{{ place.name }}</h3>
-      <img :src="place.image_url" :alt="place.alias" width="150" height="150" />
+      <img :src="place.image_url" :alt="place.alias" />
       <figcaption></figcaption>
+      <h3>{{ place.name }}</h3>
       <a :href="place.url"><button class="btn">More on your new favorite</button></a>
     </figure>
 </template>
@@ -17,7 +17,7 @@ export default {
 <style lang="scss">
 
 .btn {
-  @apply bg-red-500 p-2 rounded-lg m-5
+  @apply bg-red-500 p-2 rounded-lg m-6 hover:bg-red-300;
 }
 
 figure {
@@ -26,19 +26,21 @@ figure {
   align-items: center;
   flex-direction: column;
   margin: 1.5rem;
-  border: 1px solid gray;
-  border-radius: 1rem;
-  
+  box-shadow: 0px 0px 6px rgb(104, 104, 104);
+  border-radius: 10px;
+
     img {
-      height: 250px;
-      width: 200px;
+      height: 30vh;
+      width: 100vw;
       position: center;
       object-fit: cover;
+      border-radius: 10px 10px 0px 0px;
     }
 
     h3 {
-      font-size: 1rem;
-      margin: 2rem;
+      font-size: 18px;
+      margin: 1rem;
+      text-align: center;
     }
 }
 
