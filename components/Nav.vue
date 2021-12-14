@@ -57,9 +57,9 @@ export default {
       // Custom page data comes here.
       navClass: {
         active:
-          "font-extrabold text-center block border-2 border-gray-300 rounded py-2 px-4 bg-gray-300 text-indigo-600",
+          "font-extrabold text-center block border-2 border-gray-300 rounded py-2 px-4 bg-emerald-500 text-indigo-600",
         inactive:
-          "font-semibold text-center block border-2 border-gray-300 rounded py-2 px-4 text-blue-300 hover:bg-yellow-100 hover:text-indigo-600",
+          "font-semibold text-center block border-2 border-gray-300 rounded py-2 px-4 text-blue-300 bg-white hover:bg-emerald-500 hover:text-indigo-600",
       },
     };
   },
@@ -72,7 +72,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
 
 ul {
-  color: red;
+
   font-family: "Kosugi Maru", sans-serif;
 }
 </style>

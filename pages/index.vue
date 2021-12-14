@@ -9,9 +9,9 @@
       <h1>A Future of Accessibilities...</h1>
       <p>
         Our goal is to make your next favorite spot easy to find and suit your
-        needs.
-      </p>
-    </article>   
+        needs. </p>
+        <Form :pageInfo="pageInfo" />
+    </article>
     <Footer />
   </div>
 </template>
