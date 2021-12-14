@@ -68,7 +68,7 @@ nav {
 a,
 a:visited {
   text-decoration: none;
-  color: inherit;
+  color: indigo;
 }
 
 a:hover {

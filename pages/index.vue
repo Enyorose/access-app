@@ -3,7 +3,7 @@
     <div class="flex justify-between align-center p-5">
       <Header />
       <Nav :pageInfo="pageInfo" />
-      
+      <Testnav />
     </div>
 
     <article>
