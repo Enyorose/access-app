@@ -5,9 +5,6 @@
       <Header />
       <Nav />  
     </div>
-    <div>
-      <Community /> 
-    </div>
   <div class="community">
     <Community />
   </div>

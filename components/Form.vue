@@ -17,12 +17,13 @@
     <NuxtLink to="/services"><button class="srch-btn">Search</button></NuxtLink>
   </form>
 </template>
+<!-- JS -->
 <script>
 export default {
   props: ["pageInfo"],
 };
 </script>
-
+<!-- -->
 <style lang="scss">
 form {
   display: flex;
