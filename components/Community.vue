@@ -95,10 +95,10 @@ section {
   align-items: center;
   justify-content: center;
   padding: 5px;
+  flex-wrap: wrap;
 }
 .hands {
  max-width: 40%;
-
 }
 
 
