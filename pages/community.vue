@@ -3,10 +3,11 @@
   <div>
     <div class="flex justify-between align-center p-5">
       <Header />
-      <Nav />
-      
+      <Nav />  
     </div>
-    <Community />
+    <div>
+      <Community /> 
+    </div>
   </div>
   
 
