@@ -74,7 +74,7 @@ form {
     width: max-content;
     background-color: indigo;
     color: white;
-    padding: 14px 20px;
+    padding: 5px 10px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
