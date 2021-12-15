@@ -1,5 +1,5 @@
 <template>
-  <main>
+ <div>
     <div class="flex justify-between align-center p-5">
       <Header />
       <Nav />
@@ -24,7 +24,7 @@
     </section>
     
     <Team />
-  </main>
+ </div>
 </template>
 <script>
 export default {
@@ -40,6 +40,13 @@ export default {
 </script>
 
 <style lang="scss">
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  overflow-x: hidden;
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
@@ -47,5 +54,6 @@ section {
   text-align: center;
   align-items: center;
   align-content: center;
+  
 }
 </style>
