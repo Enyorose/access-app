@@ -6,8 +6,8 @@
     </div>
     <!--map-->
 
-    <div class="flex justify-evenly align-center">
-      <section>
+    <div class="flex justify-evenly align-center flex-wrap m-15">
+      <section class="border-2 border-gray-400 rounded-lg shadow-5xl">
         <iframe
           width="600"
           height="450"
