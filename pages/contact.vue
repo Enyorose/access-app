@@ -1,12 +1,12 @@
 <template>
- <div>
+  <div>
     <div class="flex justify-between align-center p-5">
       <Header />
       <Nav />
     </div>
     <!--map-->
 
-    <div class="flex justify-evenly">
+    <div class="flex">
       <section>
         <iframe
           width="600"
@@ -24,7 +24,7 @@
     </div>
 
     <Team />
- </div>
+  </div>
 </template>
 <script>
 export default {
@@ -53,6 +53,6 @@ section {
   text-align: center;
   align-items: center;
   align-content: center;
-  
+  width: max-content;
 }
 </style>

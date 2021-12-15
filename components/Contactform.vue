@@ -5,9 +5,9 @@
     accept-charset="utf-8"
     action="https://formspree.io/f/xlezelpa"
     method="post"
-    class="flex flex-col w-8"
+    class="flex flex-col max-w-full"
   >
-    <fieldset id="fs-frm-inputs">
+    <fieldset id="fs-frm-inputs" class="flex flex-col">
       <label for="full-name">Full Name</label>
       <input
         type="text"
@@ -46,7 +46,6 @@ export default {};
 /*inputs */
 input[type="text"],
 select {
-  width: 50%;
   padding: 6px 10px;
   margin: 8px 0;
   display: inline-block;
