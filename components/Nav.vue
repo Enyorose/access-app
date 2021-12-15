@@ -32,7 +32,7 @@ export default {};
 @import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
 /* home route and active route will show in bold as it matches / and /about */
 a.nuxt-link-active {
-  font-weight: bold;
+  
 }
 /* exact link will show the primary color for only the exact matching link */
 a.nuxt-link-exact-active {
