@@ -18,11 +18,14 @@
         <img class="charities" :src="require('/static/assets/logos/obesity-center.png')"/>
     </div>
  <!--Twitter API-->
-
+<div class="bottom">
  <span class="m-10">
    <a class="twitter-timeline" data-width="350px" data-height="700px" href="https://twitter.com/Vebuwa_Group?ref_src=twsrc%5Etfw">Tweets by Vebuwa_Group</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
  </span>
-
+<div class="hands">
+<img src="/assets/images/hand-volunteer-sm.jpg" alt="hands">
+</div>
+</div>
     <Footer />
 </section>    
     
@@ -87,7 +90,16 @@ section {
     text-align: center;
   }
 }
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.hands {
+ max-width: 40%;
 
+}
 
 
 </style>
