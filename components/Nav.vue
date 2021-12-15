@@ -23,24 +23,7 @@
   </div>
 </template>
 <script>
-<<<<<<< HEAD
-export default {
-  props: ["pageInfo"],
-  data() {
-    return {
-      // Custom page data comes here.
-      navClass: {
-        active:
-          "font-extrabold text-center block border-2 border-gray-300 rounded py-2 px-4 bg-emerald-500 text-indigo-600",
-        inactive:
-          "font-semibold text-center block border-2 border-gray-300 rounded py-2 px-4 text-blue-300 bg-white hover:text-indigo-600 hover:bg-teal-200",
-      },
-    };
-  },
-};
-=======
 export default {};
->>>>>>> 7044c82c01b0a41f74f94d80956932fbb9c87349
 </script>
 
 <style lang="scss">
@@ -73,9 +56,6 @@ img {
 }
 
 ul {
-<<<<<<< HEAD
-  font-family: "Kosugi Maru", sans-serif;
-=======
     font-family: "Kosugi Maru", sans-serif;
   list-style-type: none;
   padding: 0;
@@ -96,7 +76,6 @@ li {
 
 nav {
   padding: 0 1rem;
->>>>>>> 7044c82c01b0a41f74f94d80956932fbb9c87349
 }
 
 a,
