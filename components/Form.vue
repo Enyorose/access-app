@@ -14,7 +14,7 @@
         placeholder="Search Range"
       />
     </div>
-    <button class="srch-btn">Search</button>
+    <NuxtLink to="/services"><button class="srch-btn">Search</button></NuxtLink>
   </form>
 </template>
 <script>

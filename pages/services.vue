@@ -1,6 +1,7 @@
 <template>
   <div>
     <Header />
+    <Nav />
     <div class="search">
       <Form :pageInfo="pageInfo" />
     </div>
