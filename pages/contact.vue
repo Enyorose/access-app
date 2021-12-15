@@ -6,7 +6,7 @@
     </div>
     <!--map-->
 
-    <div class="flex">
+    <div class="flex justify-evenly align-center">
       <section>
         <iframe
           width="600"
@@ -18,11 +18,10 @@
         ></iframe>
         <!--form-->
       </section>
-      <section>
+      <section class="flex justify-center align-center">
         <Contactform />
       </section>
     </div>
-
     <Team />
   </div>
 </template>
@@ -47,12 +46,4 @@ export default {
   overflow-x: hidden;
 }
 
-section {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  width: max-content;
-}
 </style>

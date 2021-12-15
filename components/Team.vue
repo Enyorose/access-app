@@ -89,7 +89,7 @@ export default {};
   text-align: center;
   align-items: center;
   align-content: center;
-  margin: 1rem;
+  margin: 4rem;
   justify-content: space-evenly;
   gap: 0px 10px;  
 }

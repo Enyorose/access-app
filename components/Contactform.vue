@@ -5,7 +5,7 @@
     accept-charset="utf-8"
     action="https://formspree.io/f/xlezelpa"
     method="post"
-    class="flex flex-col max-w-full"
+    class="flex flex-col m-10"
   >
     <fieldset id="fs-frm-inputs" class="flex flex-col">
       <label for="full-name">Full Name</label>
