@@ -46,8 +46,8 @@ export default {};
 /*inputs */
 input[type="text"],
 select {
-  width: 100%;
-  padding: 12px 20px;
+  width: 50%;
+  padding: 6px 10px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;

@@ -1,7 +1,9 @@
 <template>
   <div>
-    <Header />
-    <Nav />
+   <div class="flex justify-between align-center p-5">
+      <Header />
+      <Nav />
+    </div>
     <div class="search">
       <Form :pageInfo="pageInfo" />
     </div>
@@ -48,6 +50,8 @@ export default {
 
 
 <style lang="scss">
+
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
