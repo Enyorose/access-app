@@ -46,22 +46,27 @@ export default {
   background-size: cover;
   background-position: center;
   overflow-y: hidden ;
-}
 
-article {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  height: 85vh;
-  padding: 2rem;
-  flex-wrap: wrap;
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 85vh;
+    padding: 2rem;
+    flex-wrap: wrap;
 
-  h1 {
-  font-family: "Kosugi Maru", sans-serif;
+    h1 {
+      font-family: "Kosugi Maru", sans-serif;
+      animation: fadeInDown;
+      animation-duration: 2s;
+    }
+
+    p {
+      animation: fadeIn;
+      animation-duration: 4s;
+    }
   }
-
 }
-
 
 </style>
