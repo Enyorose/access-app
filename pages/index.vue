@@ -3,9 +3,7 @@
     <div class="flex justify-between align-center p-5">
       <Header />
       <Nav />
-      
     </div>
-
     <article>
       <h1 class="text-5xl mb-5 md:text-6xl lg:text-8xl">A Future of Accessibilities...</h1>
       <p class="text-md md:text-xl lg:text-2xl">
@@ -45,15 +43,14 @@ export default {
   background-image: url(./static/assets/images/splash-page2.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  overflow-y: hidden ;
+  background-position: center ;
 
   article {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    height: 85vh;
+    height: 75vh;
     padding: 2rem;
     flex-wrap: wrap;
 

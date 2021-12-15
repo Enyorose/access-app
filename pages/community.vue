@@ -2,10 +2,11 @@
  
   <div>
     <div class="flex justify-between align-center p-5">
-    
       <Header />
-      <Nav />
-      
+      <Nav />  
+    </div>
+    <div>
+      <Community /> 
     </div>
   <div class="community">
     <Community />
