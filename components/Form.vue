@@ -1,5 +1,5 @@
 <template>
-  <form>
+  <form class="flex justify-center flex-wrap items-center">
     <label for="input-search">Restaurant Name:</label>
     <input type="text" id="input-search" placeholder="Search Restaurant" />
     <div v-if="pageInfo.menuName !== 'services'" class="hidden"></div>
@@ -25,12 +25,9 @@ export default {
 </script>
 <!-- -->
 <style lang="scss">
+
 form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 3rem;
-  flex-wrap: wrap;
+
 
   label {
     font-size: 1rem;
@@ -41,7 +38,7 @@ form {
     padding: 1rem;
     width: 300px;
     border-radius: 15px;
-    border: 1px solid rgb(214, 214, 214);
+    filter: drop-shadow(0px 0px 2px);
   }
 
   .srch-btn {
@@ -60,6 +57,5 @@ form {
       margin: 1rem;
     }
   }
-
 }
 </style>

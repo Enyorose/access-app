@@ -1,5 +1,6 @@
 <template>
   <form
+    class="contact-pg"
     id="fs-frm"
     name="simple-contact-form"
     accept-charset="utf-8"
@@ -51,14 +52,16 @@ export default {};
   overflow-x: hidden;
 }
 
-form {
+  .contact-pg {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin: 1rem;
   
   input {
     border: 1px solid gray;
-    width: 30rem;
     height: 3rem;
+    width: 25rem;
     text-align: center;
     border-radius: 15px;
     margin: 10px;
