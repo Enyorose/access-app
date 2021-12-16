@@ -49,6 +49,9 @@ export default {
   align-items: center;
   align-content: center;
   flex-direction: column;
+  /*animation*/
+  animation: fadeIn;
+  animation-duration: 2s;
 
   .comm-text {
     border: solid;

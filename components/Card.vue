@@ -28,6 +28,9 @@ figure {
   border: 1px solid rgb(172, 172, 172);
   box-shadow: 0px 0px 10px rgb(119, 119, 119);
   border-radius: 10px;
+  /*animation*/
+  animation: fadeIn;
+  animation-duration: 2s;
 
     img {
       height: 30vh;
