@@ -1,72 +1,36 @@
-# access-app
+# Final Project 
 
-## Attributions
-- [Outdoor-restaurant.webp](https://pixabay.com/photos/city-street-cafe-gastronomy-4298285/)
-- [Seating.webp](https://pixabay.com/photos/meal-drink-coffee-shop-bar-623651/)
-## Build Setup
-
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+- Instructors: [Tony Grimes](https://github.com/acidtone) & [Ashlyn Knox](https://github.com/lilyx13)
+- Class: SAIT Web Dev Fall 2021
+- Links: [Github Repo](https://github.com/Enyorose/access-app.git) | [Netlify Link](https://mystifying-snyder-eec8e0.netlify.app/)
 
 
-### `pages`
+## Vebuwa (VBW)
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+- [Evan Burton](https://github.com/Rankorrdagod) :goberserk:
+- [Icah Vega](https://github.com/Icahpv) 💁
+- [Jessica Watson](https://github.com/Enyorose)
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+## All For One (Restaurant Accessbility)
 
-### `plugins`
+- [Figma Presentation](https://www.figma.com/file/oZ8DGkvHOoQpnmdPq1ltMo/VeBuWa-presentation?node-id=0%3A1)
+- [Yelp API](https://fusion.yelp.com/)
+- CSS Frameworks: [TailwindCSS](https://tailwindcss.com/) + [Sass](https://sass-lang.com/guide)
+- JS Frameworks: [VueJS](https://vuejs.org/) in [NuxtJS](https://nuxtjs.org/)
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+#### Problems 
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+### Attributions
+> Please include image link, author link and website link if applicable.
 
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+- [Splash Page Photo](https://pixabay.com/photos/team-friendship-group-hands-4529717/) by [Bob Dmyt](https://pixabay.com/users/bob_dmyt-8820017/) from [Pixabay](https://pixabay.com/)
+- [Animate.css](https://animate.style/): Splash page animation.
+- [Twitter Developer Platform](https://developer.twitter.com/en/docs/twitter-for-websites/timelines/guides/profile-timeline): Twitter timeline in community page.
+- [Elderly Man Photo](https://pixabay.com/photos/man-men-senior-seniors-human-2320829/)
+- [Picnic Drawing](https://pixabay.com/vectors/picnic-family-picnic-picnic-basket-4246391/)
+- [Volunteer Hands](https://pixabay.com/photos/hand-help-war-backround-waiting-5040992/)
+- [Tailwindcss DOCS](https://tailwindcss.com/docs/configuration)
+- [Setting up SASS with Vue](https://www.youtube.com/watch?v=jrxalQdn64k) by [Praveen Puglia](https://www.youtube.com/channel/UCEV-PPe9JMwzFz4G1jA3sFQ)
+- [SASS Docs](https://sass-lang.com/documentation)
+### License
+[MIT License](https://opensource.org/licenses/MIT) :scroll:
